@@ -1,4 +1,3 @@
-// File: src/words.js
 const words = [
   "banana",
   "apple",

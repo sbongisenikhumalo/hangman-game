@@ -1,4 +1,3 @@
-// File: src/components/WordDisplay.js
 import React from "react";
 
 function WordDisplay({ word, guessedLetters }) {

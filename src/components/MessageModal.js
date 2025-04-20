@@ -1,4 +1,3 @@
-// File: src/components/MessageModal.js
 import React from "react";
 
 function MessageModal({ isWinner, isLoser, word, onRestart }) {

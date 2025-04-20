@@ -1,4 +1,3 @@
-// File: src/components/HangmanImage.js
 import React from "react";
 
 function HangmanImage({ step }) {

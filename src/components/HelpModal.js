@@ -1,4 +1,3 @@
-// File: src/components/HelpModal.js
 import React from "react";
 
 function HelpModal({ onClose }) {

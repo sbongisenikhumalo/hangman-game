@@ -1,4 +1,3 @@
-// File: src/utils.js
 export function pickRandomWord(wordList) {
   return wordList[Math.floor(Math.random() * wordList.length)].toLowerCase();
 }

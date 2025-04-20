@@ -1,4 +1,3 @@
-// File: src/templates/App.js
 import React, { useState } from "react";
 import WordDisplay from "./components/WordDisplay";
 import Keyboard from "./components/Keyboard";

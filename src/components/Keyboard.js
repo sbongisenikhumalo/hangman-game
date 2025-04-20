@@ -1,4 +1,3 @@
-// File: src/components/Keyboard.js
 import React from "react";
 
 const KEYS = "abcdefghijklmnopqrstuvwxyz".split("");
