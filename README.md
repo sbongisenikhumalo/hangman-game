@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+#  Hangman Game — React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple yet fun Hangman word guessing game built using React.
 
-## Available Scripts
+This project was completed as part of the Full Stack Web Development course to demonstrate my ability to build a React app, manage component state, handle keyboard input, and deploy the app to production.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Random word selection from a word list
+- Real-time tracking of correct and incorrect guesses
+- Visual hangman image progression based on mistakes
+- Modal popup for win/loss messages
+- Responsive keyboard input handling
+- Help modal for game instructions
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+##  Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can play the deployed game here:  
+🔗 https://your-live-deployed-url.netlify.app  
+(Replace this with your actual deployed link)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Technologies Used
 
-### `npm run eject`
+- React (Functional Components)
+- useState and useEffect hooks
+- JSX and conditional rendering
+- CSS for styling
+- Netlify for deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  How to Play
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. The app selects a random word.
+2. You guess one letter at a time using the keyboard or the on-screen keyboard.
+3. Each incorrect guess shows a new part of the hangman image.
+4. You win if you guess the word before the hangman is complete!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+##  Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+hangman-game/
+├── public/
+├── src/  
+ ├── components/
+├── WordDisplay.js  
+ ├── Keyboard.js  
+ ├── HangmanImage.js
+├── MessageModal.js
+└── HelpModal.js│  
+ ├── utils.js  
+ ├── words.js  
+ ├── App.js  
+ ├── App.test.js
+├── App.css
+└── index.js
+├──index.css
+├── package.json
+├── README.md
+└── link.txt (contains live deployed link)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##  Instructions to Run Locally
 
-### Code Splitting
+1. Clone the repository
+2. Run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+npm start
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
