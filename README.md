@@ -21,7 +21,7 @@ This project was completed as part of the Full Stack Web Development course to d
 
 You can play the deployed game here:  
 🔗 https://6804fe7196d913265472d8f9--lighthearted-zuccutto-95ec72.netlify.app/  
-(Replace this with your actual deployed link)
+
 
 
 ##  Technologies Used
